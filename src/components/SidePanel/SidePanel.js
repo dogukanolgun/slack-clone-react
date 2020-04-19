@@ -1,7 +1,7 @@
-import React from 'react';
-import { Menu } from 'semantic-ui-react';
-import Channels from './Channels';
-import UserPanel from './UserPanel';
+import React from "react";
+import UserPanel from "./UserPanel";
+import Channels from "./Channels";
+import { Menu } from "semantic-ui-react";
 
 class SidePanel extends React.Component {
   render() {
@@ -13,7 +13,7 @@ class SidePanel extends React.Component {
         inverted
         fixed="left"
         vertical
-        style={{ background: '#4c3c4c', fontSize: '1.2rem' }}
+        style={{ background: "#4c3c4c", fontSize: "1.2rem" }}
       >
         <UserPanel currentUser={currentUser} />
         <Channels />

@@ -8,6 +8,3 @@ const Spinner = () => (
 );
 
 export default Spinner;
-
-// haha
-// hehe
